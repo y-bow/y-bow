@@ -1,4 +1,4 @@
-# Vaibhav
+# B.Vaibhav
 
 Computer Science student  
 Exploring systems, security & real-world problem solving.
@@ -14,17 +14,13 @@ Currently:
 ---
 
 Tech:
-C · Python · JavaScript · HTML · CSS  
+C · Python · HTML · CSS  
 Git · GitHub · VS Code · Linux
 
 ---
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=y-bow&show_icons=true&hide_border=true&theme=tokyonight" height="150">
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=y-bow&show_icons=true&hide_border=true&theme=transparent)
 
 ---
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=y-bow&color=blue&style=flat">
-</p>
+![Profile Views](https://komarev.com/ghpvc/?username=y-bow&style=flat-square&color=grey)
