@@ -19,8 +19,8 @@ Git · GitHub · VS Code · Linux
 
 ---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=y-bow&show_icons=true&hide_border=true&theme=transparent)
+![GitHub Streak](https://streak-stats.demolab.com?user=y-bow&hide_border=true&theme=transparent)
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=y-bow&style=flat-square&color=grey)
+![Profile Views](https://komarev.com/ghpvc/?username=y-bow&style=flat-square&color=red)
