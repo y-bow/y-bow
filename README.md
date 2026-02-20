@@ -1,16 +1,6 @@
 # B.Vaibhav
 
 Computer Science student  
-Exploring systems, security & real-world problem solving.
-
----
-
-Currently:
-- Strengthening core CS fundamentals
-- Practicing DSA
-- Building small but meaningful projects
-- Learning more about cybersecurity
-
 ---
 
 Tech:
