@@ -13,4 +13,4 @@ Git · GitHub · VS Code · Linux
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=red)
+![Profile Views](https://komarev.com/ghpvc/?username=y-bow&style=for-the-badge&color=red)
