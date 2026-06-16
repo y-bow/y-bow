@@ -1,0 +1,313 @@
+<!-- Deploy: drag this folder to netlify.com/drop -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B. Vaibhav | FOSS Club President</title>
+    <meta
+      name="description"
+      content="Portfolio of B. Vaibhav — CS student, FOSS Club President, open source developer based in Chennai."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar__inner">
+        <a class="brand" href="#home">B. Vaibhav</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#achievements">Events</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="section-content">
+          <p class="eyebrow">CS Student · FOSS Club President · Open Source Developer</p>
+          <h1>
+            B. Vaibhav <span class="cursor" aria-hidden="true"></span>
+          </h1>
+          <p class="hero-copy">
+            I build open-source tools, win pitch competitions, and map the world with OpenStreetMap.
+          </p>
+          <p class="hero-intro">
+            Passionate about solving real problems through code. I lead the FOSS Club at SAI University, contribute to the open-source ecosystem, and believe in building in public. Currently exploring ethical hacking, local AI models, and how OpenStreetMap is mapping the world.
+          </p>
+          <pre class="terminal-status"><code>$ currently building <span class="highlight">open-source university tools</span></code></pre>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#projects">View Projects</a>
+            <a class="button button--ghost" href="https://linkedin.com/in/vaibhavbalaji" target="_blank" rel="noreferrer noopener">
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-content">
+          <div class="section-heading">
+            <span class="section-label">01</span>
+            <h2>About</h2>
+          </div>
+          <p>
+            I'm a first-year Computer Science student at SAI University, Chennai, and President of the FOSS Club. I'm passionate about free and open-source software because I believe technology should be transparent, community-driven, and accessible. Through the FOSS Club, I'm building a community of developers who care about collaborative problem-solving and contributing to projects that matter.
+          </p>
+          <p>
+            Beyond FOSS, I'm deeply interested in ethical hacking, OSINT, and understanding how systems work. I run local AI models on my RTX 3060 setup, exploring fine-tuning with Unsloth and building workflows with n8n. I'm also an active OpenStreetMap contributor—mapping the world fascinates me. I'm a merit scholarship holder with a 8.94 GPA in my first semester, and I spend my time building practical tools, not chasing frameworks.
+          </p>
+          <p>
+            When I'm not coding, I play Throwball and Table Tennis, and I write reflective prose that connects technology, systems thinking, and everyday life. I believe in learning by building, shipping early, and sharing knowledge with others.
+          </p>
+          <div class="chips-grid">
+            <span class="chip">8.94 Sem 1 GPA</span>
+            <span class="chip">FOSS Club President</span>
+            <span class="chip">RTX 3060 Local AI</span>
+            <span class="chip">Bug Bounty Learner</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="projects">
+        <div class="section-content">
+          <div class="section-heading">
+            <span class="section-label">02</span>
+            <h2>Projects</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div>
+                <h3>Hive LMS/ERP</h3>
+                <div class="tags">
+                  <span>Flask</span>
+                  <span>SQLAlchemy</span>
+                  <span>Jinja2</span>
+                  <span>Multi-tenant</span>
+                </div>
+              </div>
+              <p>
+                A comprehensive university ERP system addressing the fragmentation of campus management tools. Hive provides six distinct user roles (Admin, Faculty, Student, Department Head, Finance, Placement) within a single multi-tenant architecture using subdomain-based tenancy. Each university gets isolated data while sharing infrastructure. Key challenges: designing role-based access control, building complex workflow systems, and ensuring data isolation at scale.
+              </p>
+              <div class="project-meta">
+                <span class="meta-item"><strong>Status:</strong> Active Development</span>
+                <span class="meta-item"><strong>Type:</strong> Open Source / FOSS</span>
+                <span class="meta-item"><strong>Role:</strong> Founder & Lead Developer</span>
+              </div>
+              <p class="impact-text">Submitted to FOSS Hack 2026. Intended for universities looking for open-source alternatives to costly proprietary ERP systems.</p>
+              <a class="project-link" href="#" target="_blank" rel="noreferrer noopener">GitHub</a>
+            </article>
+
+            <article class="project-card">
+              <div>
+                <h3>CredScore</h3>
+                <div class="tags">
+                  <span>Marketplace</span>
+                  <span>Pitch Deck</span>
+                  <span>Financials</span>
+                </div>
+              </div>
+              <p>
+                A performance-based marketplace connecting academic excellence with economic opportunity. CredScore tokenizes student performance metrics into verifiable credentials, creating a transparent pathway for employers and educational institutions to identify talent. The problem: traditional GPAs don't capture skills or project work. The solution: a marketplace where achievements have real value. Built comprehensive financial projections, customer acquisition strategies, and a go-to-market plan.
+              </p>
+              <div class="project-meta">
+                <span class="meta-item"><strong>Status:</strong> MVP Complete</span>
+                <span class="meta-item"><strong>Type:</strong> Student Startup</span>
+                <span class="meta-item"><strong>Role:</strong> Founder & Business Lead</span>
+              </div>
+              <p class="impact-text"><strong>1st Place</strong> at Sharp Tank (moSAIc 2026) after pitching through 3 competitive rounds.</p>
+              <a class="project-link" href="#" target="_blank" rel="noreferrer noopener">GitHub</a>
+            </article>
+
+            <article class="project-card">
+              <div>
+                <h3>Jarvis n8n Workflow</h3>
+                <div class="tags">
+                  <span>n8n</span>
+                  <span>Telegram</span>
+                  <span>Groq LLM</span>
+                  <span>SerpAPI</span>
+                </div>
+              </div>
+              <p>
+                An intelligent automation workflow combining local and cloud AI with web search. Jarvis listens on Telegram, processes queries through Groq's fast LLM inference, searches the web via SerpAPI for current information, and delivers results via Gmail. Demonstrates the power of orchestrating AI models and APIs without writing backend code. Key learning: building resilient workflows that gracefully handle API failures and rate limits.
+              </p>
+              <div class="project-meta">
+                <span class="meta-item"><strong>Status:</strong> Production</span>
+                <span class="meta-item"><strong>Type:</strong> Automation / AI</span>
+                <span class="meta-item"><strong>Role:</strong> Architect & Developer</span>
+              </div>
+              <p class="impact-text">Personal productivity tool exploring the intersection of local AI, real-time search, and async notifications.</p>
+              <a class="project-link" href="#" target="_blank" rel="noreferrer noopener">GitHub</a>
+            </article>
+
+            <article class="project-card">
+              <div>
+                <h3>Pine Script EMA Indicator</h3>
+                <div class="tags">
+                  <span>Pine Script v6</span>
+                  <span>EMA 13/21</span>
+                  <span>Technical Analysis</span>
+                </div>
+              </div>
+              <p>
+                A sophisticated technical trading indicator built in Pine Script v6 for TradingView. Implements exponential moving average crossover signals (13/21) combined with proprietary pattern detection (FGC, FRC, TCG, TCR patterns) to identify high-probability entry and exit points. Demonstrates deep understanding of market microstructure, indicator design, and the nuances of programmatic trading logic.
+              </p>
+              <div class="project-meta">
+                <span class="meta-item"><strong>Status:</strong> Active Trading</span>
+                <span class="meta-item"><strong>Type:</strong> Fintech / Trading Tool</span>
+                <span class="meta-item"><strong>Role:</strong> Researcher & Developer</span>
+              </div>
+              <p class="impact-text">Personal trading tool built to understand market dynamics and algorithmic decision-making in financial systems.</p>
+              <a class="project-link" href="#" target="_blank" rel="noreferrer noopener">GitHub</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-content">
+          <div class="section-heading">
+            <span class="section-label">03</span>
+            <h2>Skills</h2>
+          </div>
+          <div class="skill-groups">
+            <div>
+              <h3>Languages</h3>
+              <p class="skill-desc">Primary: Python. Deep proficiency building real-world applications, data structures, and algorithms.</p>
+              <ul>
+                <li>Python <span class="skill-note">(primary)</span></li>
+                <li>C</li>
+                <li>Go</li>
+                <li>AVR C</li>
+                <li>JavaScript</li>
+                <li>Pine Script</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Tools / Frameworks</h3>
+              <p class="skill-desc">Backend stack: Flask + SQLAlchemy for scalable web applications. Daily drivers: Git, Linux.</p>
+              <ul>
+                <li>Flask <span class="skill-note">(preferred)</span></li>
+                <li>SQLAlchemy <span class="skill-note">(preferred)</span></li>
+                <li>Ollama &amp; Unsloth (LLM)</li>
+                <li>n8n (Automation)</li>
+                <li>Git <span class="skill-note">(daily)</span></li>
+                <li>Linux <span class="skill-note">(daily)</span></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Specializations</h3>
+              <p class="skill-desc">Depth in open source, ethical hacking, and building communities.</p>
+              <ul>
+                <li>FOSS Development</li>
+                <li>Ethical Hacking</li>
+                <li>OSINT &amp; Reconnaissance</li>
+                <li>Bug Bounty Research</li>
+                <li>LLM Fine-tuning</li>
+                <li>OpenStreetMap Mapping</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="achievements">
+        <div class="section-content">
+          <div class="section-heading">
+            <span class="section-label">04</span>
+            <h2>Events &amp; Achievements</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>1st Place — Sharp Tank Pitch Competition</h3>
+                <p class="timeline-meta">moSAIc 2026</p>
+                <p>Won first place for CredScore after three competitive pitch rounds, defeating dozens of teams. Demonstrated the ability to articulate complex business models, financial viability, and market opportunity under pressure. This validated not just the idea, but my ability to think like a founder.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>FOSS Hack 2026 — Round 1 Qualifier</h3>
+                <p class="timeline-meta">Hive LMS/ERP</p>
+                <p>Selected among hundreds of entries for showcasing Hive at India's largest open-source hackathon. Signifies strong product vision and technical execution in the FOSS community.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Organized — Ctrl C + Ctrl V Hackathon</h3>
+                <p class="timeline-meta">SAI University</p>
+                <p>Conceived and led a university-wide hackathon from zero to 100+ participants. Taught me that community building and event management are as important as technical skills. Created an inclusive space for students to learn and build together.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Organized — Hack'R'Rank</h3>
+                <p class="timeline-meta">FOSS Club Initiative</p>
+                <p>Another hackathon under FOSS Club leadership, demonstrating commitment to fostering coding culture and collaborative problem-solving at campus level.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Merit Scholarship + 8.94 GPA</h3>
+                <p class="timeline-meta">Semester 1</p>
+                <p>Academic recognition alongside active projects and leadership roles. Proves that shipping real products and excelling in studies aren't mutually exclusive.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Volunteer — WE Together (ICC/WEC)</h3>
+                <p class="timeline-meta">Social Impact</p>
+                <p>Gave back to the community through volunteering, recognizing that technology should serve society beyond profit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PHILOSOPHY SECTION -->
+      <section class="section section--dark" id="philosophy">
+        <div class="section-content">
+          <div class="section-heading">
+            <span class="section-label">06</span>
+            <h2>Building in Public</h2>
+          </div>
+          <p>I prefer open source over closed ecosystems because transparency builds trust, and collaboration accelerates innovation. I believe the best way to learn is by building real tools that solve actual problems—not just tutorials or toy projects.</p>
+          <p>This portfolio reflects my philosophy: shipping early, sharing knowledge with others, and using technology as a force for good rather than profit. Long-term projects matter more than quick trends; community over competition; open collaboration over proprietary solutions.</p>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="section" id="contact">
+        <div class="section-content contact-section">
+          <div class="section-heading">
+            <span class="section-label">05</span>
+            <h2>Contact</h2>
+          </div>
+          <p style="margin-bottom: 1.5rem;">Always open to collaborating on open-source projects, student initiatives, mapping efforts, and interesting technical ideas.</p>
+          <div class="contact-row">
+            <a href="https://linkedin.com/in/vaibhavbalaji" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+            <a href="https://github.com/vaibhavbalaji" target="_blank" rel="noreferrer noopener">GitHub</a>
+            <a href="mailto:vaibhav@example.com">Email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
