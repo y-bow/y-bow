@@ -90,6 +90,25 @@ textarea {
   color: var(--accent);
 }
 
+/* Mobile hamburger menu */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  z-index: 30;
+  padding: 8px;
+  background: transparent;
+  border: none;
+}
+
+.hamburger-menu span {
+  width: 24px;
+  height: 2px;
+  background: var(--text);
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
 .hero {
   min-height: 100vh;
   display: flex;
