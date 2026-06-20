@@ -117,7 +117,7 @@ textarea {
 }
 
 .section {
-  padding: 100px 24px;
+  padding: 70px 24px;
 }
 
 .section--dark {
@@ -473,4 +473,7 @@ textarea {
   100%{
     opacity:1;
   }
+}
+.timeline-content{
+  padding:10px;
 }
