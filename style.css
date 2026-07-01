@@ -101,19 +101,29 @@ textarea {
 
 .nav-links {
   display: flex;
-  gap: 22px;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .nav-links a {
+  display: inline-block;
   color: var(--muted);
   font-size: 0.95rem;
-  transition: color 180ms ease;
+  cursor: pointer;
+
+  transform: scale(1);
+  transform-origin: center;
+  will-change: transform;
+
+  transition:
+    color 0.5s ease,
+    transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .nav-links a:hover,
 .nav-links a:focus-visible {
   color: var(--accent);
+  transform: scale(1.04);
 }
 
 /* Mobile hamburger menu */
